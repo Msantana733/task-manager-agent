@@ -1,2 +1,2 @@
-# ticktick-mcp-server
-Getting started with integrating ticktick with Claude Code
+# task-manager-agent
+Getting started with integrating ticktick with Claude Code to create a task manager hub.
