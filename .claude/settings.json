@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "ticktick": {
+      "command": "python",
+      "args": ["mcp-servers/ticktick/server.py"],
+      "env": {
+        "TICKTICK_CLIENT_ID": "${TICKTICK_CLIENT_ID}",
+        "TICKTICK_CLIENT_SECRET": "${TICKTICK_CLIENT_SECRET}",
+        "TICKTICK_ACCESS_TOKEN": "${TICKTICK_ACCESS_TOKEN}"
+      }
+    },
+    "google-calendar": {
+      "command": "python",
+      "args": ["mcp-servers/google-calendar/server.py"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
+        "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}"
+      }
+    }
+  }
+}
